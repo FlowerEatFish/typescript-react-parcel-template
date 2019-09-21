@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "jsx": "react",
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
+    /* Additional Checks */
+    "noImplicitReturns": true,
+
+    /* Module Resolution Options */
+    "esModuleInterop": true
+  },
+  "include": [
+    "./src/"
+  ]
+}
