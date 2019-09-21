@@ -1,10 +1,7 @@
 {
   "compilerOptions": {
     /* Basic Options */
-    "lib": [
-      "dom",
-      "esnext"
-    ],
+    "lib": ["dom", "esnext"],
     "jsx": "react",
 
     /* Strict Type-Checking Options */
@@ -23,7 +20,5 @@
     /* Module Resolution Options */
     "esModuleInterop": true
   },
-  "include": [
-    "./src/"
-  ]
+  "include": ["./src/"]
 }

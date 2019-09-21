@@ -1,10 +1,9 @@
-import React, { FunctionComponent } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React, { FunctionComponent } from "react";
+import { Route, Switch } from "react-router-dom";
 
-import Container from './container';
+import Container from "./container";
 
-interface Props {
-}
+interface Props {}
 
 const Router: FunctionComponent<Props> = props => (
   <Switch>
