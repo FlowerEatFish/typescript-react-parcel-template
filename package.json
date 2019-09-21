@@ -11,12 +11,14 @@
     "start:dev": "parcel index.html --open --port 8080",
     "build:prod": "parcel build index.html",
     "eslint": "eslint . -f stylish --ext .js --ext .ts --ext .tsx",
-    "eslint:fix": "eslint . -f stylish --ext .js --ext .ts --ext .tsx --fix"
+    "eslint:fix": "eslint . -f stylish --ext .js --ext .ts --ext .tsx --fix",
+    "stylelint": "stylelint ./src/style/*.scss --syntax scss",
+    "stylelint:fix": "stylelint ./src/style/*.scss --syntax scss --fix"
   },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "yarn run eslint"
+      "pre-push": "yarn run eslint && yarn run stylelint"
     }
   },
   "lint-staged": {
@@ -52,6 +54,11 @@
     "parcel-bundler": "^1.12.3",
     "prettier": "^1.18.2",
     "sass": "^1.22.12",
+    "stylelint": "^11.0.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-sass-guidelines": "^6.1.0",
+    "stylelint-order": "^3.1.1",
+    "stylelint-scss": "^3.11.0",
     "typescript": "^3.6.3"
   }
 }
