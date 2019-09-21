@@ -9,11 +9,14 @@
   "private": true,
   "scripts": {
     "start:dev": "parcel index.html --open --port 8080",
-    "build:prod": "parcel build index.html"
+    "build:prod": "parcel build index.html",
+    "eslint": "eslint . -f stylish --ext .js --ext .ts --ext .tsx",
+    "eslint:fix": "eslint . -f stylish --ext .js --ext .ts --ext .tsx --fix"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn run eslint"
     }
   },
   "lint-staged": {
@@ -35,6 +38,15 @@
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
     "@types/react-router-dom": "^4.3.5",
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
     "husky": "^3.0.5",
     "lint-staged": "^9.2.5",
     "parcel-bundler": "^1.12.3",
