@@ -7,7 +7,12 @@
   "author": "Eating-Fish Flower <flower.eating.fish@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start:dev": "parcel index.html --open --port 8080",
+    "build:prod": "parcel build index.html"
+  },
   "devDependencies": {
+    "parcel-bundler": "^1.12.3",
     "typescript": "^3.6.3"
   }
 }
