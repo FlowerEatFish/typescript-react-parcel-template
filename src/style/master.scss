@@ -1,0 +1,11 @@
+@import "/node_modules/bootstrap/scss/bootstrap";
+@import "./variable.scss";
+
+.container {
+  min-height: 100vh;
+
+  @media (min-width: $min-small-device) {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+}
