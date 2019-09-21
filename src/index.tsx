@@ -1,16 +1,18 @@
 // index.tsx
+import "/node_modules/bootstrap/dist/css/bootstrap.css";
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
+import { Container } from "react-bootstrap";
 
 import Router from "./router";
 import "./style/master.scss";
 
 ReactDOM.render(
   <BrowserRouter>
-    <div className="container">
+    <Container>
       <Router />
-    </div>
+    </Container>
   </BrowserRouter>,
   document.getElementById("app")
 );
