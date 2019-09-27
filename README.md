@@ -1,6 +1,6 @@
 # TypeScript React Template
 
-[![Dependencies status](https://david-dm.org/FlowerEatFish/typescript-react-template/status.svg)](https://david-dm.org/FlowerEatFish/typescript-react-template)
+[![Dependencies status](https://david-dm.org/FlowerEatFish/typescript-react-parcel-template/status.svg)](https://david-dm.org/FlowerEatFish/typescript-react-parcel-template)
 [![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
