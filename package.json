@@ -1,9 +1,9 @@
 {
-  "name": "typescript-react-template",
+  "name": "typescript-react-parcel-template",
   "version": "0.1.0",
-  "description": "A TypeScript and React template",
+  "description": "A TypeScript and React template with Parcel bundler",
   "main": "index.html",
-  "repository": "git@github.com:FlowerEatFish/typescript-react-template.git",
+  "repository": "git@github.com:FlowerEatFish/typescript-react-parcel-template.git",
   "author": "Eating-Fish Flower <flower.eating.fish@gmail.com>",
   "license": "MIT",
   "private": true,
