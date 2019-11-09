@@ -15,18 +15,6 @@
     "stylelint": "stylelint ./src/style/*.scss --syntax scss",
     "stylelint:fix": "stylelint ./src/style/*.scss --syntax scss --fix"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn run eslint && yarn run stylelint"
-    }
-  },
-  "lint-staged": {
-    "*.{html,json,js.jsx,ts,tsx,css,scss}": [
-      "prettier --write",
-      "git add"
-    ]
-  },
   "dependencies": {
     "animate.css": "^3.7.2",
     "bootstrap": "^4.3.1",
